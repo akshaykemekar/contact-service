@@ -18,6 +18,11 @@ public class ContactController {
 	@Autowired
 	private ContactService contactService;
 	
+	@GetMapping("/")
+	public String getHelloWorld(){
+		return "Hello World";
+	}
+	
 	@GetMapping("/user/{userId}")
 	public List<Contact> getContacts(@PathVariable("userId") Long userId){
 		
