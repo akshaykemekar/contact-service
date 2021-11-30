@@ -12,7 +12,7 @@ import com.springboot.soap.api.entity.Contact;
 import com.springboot.soap.api.service.ContactService;
 
 @RestController
-@RequestMapping("/contact")
+//@RequestMapping("/contact")
 public class ContactController {
 	
 	@Autowired
